@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAzFunc", "BlazorAzFunc\BlazorAzFunc.csproj", "{723D483A-2C06-4AD3-970B-32F33BA13AE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorAzFunc", "BlazorAzFunc\BlazorAzFunc.csproj", "{723D483A-2C06-4AD3-970B-32F33BA13AE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunction", "AzureFunction\AzureFunction.csproj", "{A8707538-0105-4B47-8E51-7CA91422958E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureFunction", "AzureFunction\AzureFunction.csproj", "{A8707538-0105-4B47-8E51-7CA91422958E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{C0363612-BF1A-4DF3-9697-42AFDD8E1056}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedLib", "Shared\SharedLib.csproj", "{C0363612-BF1A-4DF3-9697-42AFDD8E1056}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

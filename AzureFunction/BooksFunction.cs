@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Azure.WebJobs.Host;
 using Newtonsoft.Json;
 using System.Collections.Generic;
-using Shared.BooksLib;
+using SharedLib;
 
 namespace AzureFunction
 {    public static class BooksFunction
