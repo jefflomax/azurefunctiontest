@@ -41,7 +41,14 @@ else
     {
         message = "OnInitAsync";
         Http.BaseAddress = new Uri("https://rjlpdiblazorapi.azurewebsites.net");
-        books = await Http.GetJsonAsync<Book[]>("/api/BooksFunction");
+        try
+        {
+            books = await Http.GetJsonAsync<Book[]>("/api/BooksFunction");
+        }
+        catch(Exception e)
+        {
+            books = new Book[] {new Book(1, e.Message, e.StackTrace)};
+        }
         message = "downloaded books";
     }
 }
